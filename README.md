@@ -2,44 +2,47 @@
 
 A responsive frontend application for managing products, featuring Grid/List views, real-time search, and pagination.
 
-## Features
+## 🚀 Live Demo
 
-- **Product Display**: Switch between Grid and List (Table) views.
+[**Click here to view the Deployed Application**](https://product-dashboard-react-nine.vercel.app/)
+
+
+## Assignment Overview
+
+This project was built as part of the frontend developer assessment. It meets all the specified requirements, including:
+- **Product Display**: Toggle between Grid and List views.
 - **Search**: Real-time search with 500ms debounce.
-- **Management**: Add and Edit products with validation.
-- **Pagination**: Client-side pagination.
-- **Responsive Design**: Premium dark-themed UI.
+- **Forms**: Add and Edit product functionality with validation.
+- **Pagination**: Client-side pagination implementation.
+- **Design**: Fully responsive, premium dark-themed UI.
 
 ## Tech Stack
 
-- React
-- Vite
-- Vanilla CSS (Custom variables & responsiveness)
-- Lucide React (Icons)
+- **Framework**: React + Vite
+- **Styling**: Vanilla CSS (Custom properties, Glassmorphism, Responsive Grid/Flex)
+- **Icons**: Lucide React
+- **State Management**: React Hooks (useState, useEffect, useMemo)
 
-## Setup Locally
+## Running Locally
 
-1. Install dependencies:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/codedByPradeep/product-dashboard-react.git
+   cd product-dashboard-react
+   ```
+
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-2. Run development server:
+3. **Start development server**
    ```bash
    npm run dev
    ```
 
-3. Build for production:
-   ```bash
-   npm run build
-   ```
-
 ## Deployment
 
-To deploy to Vercel or Netlify:
-
-1. Push this repository to GitHub.
-2. Import the project in Vercel/Netlify.
-3. The build settings should auto-detect Vite:
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
+The application is deployed on Vercel. 
+- Build Command: `npm run build`
+- Output Directory: `dist`
